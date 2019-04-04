@@ -1,13 +1,12 @@
 package arrow
 
 import kotlinx.coroutines.runBlocking
-import java.util.*
 
 fun main(args: Array<String>) {
     greet()
 }
 
-suspend fun sayGoodBye(): Unit =tus
+suspend fun sayGoodBye(): Unit =
     println("Good bye World!")
 
 suspend fun sayHello(): Unit =
