@@ -1,7 +1,5 @@
 package hello
 
-import kotlin.coroutines.experimental.buildSequence
-
 fun main(args: Array<String>) {
 
     val ints = listOf<Int>(1, 2, 3)
@@ -15,7 +13,7 @@ fun main(args: Array<String>) {
     println(Derived().method2().method1("world"))
 
 
-    val sequence = buildSequence {
+    val sequence = sequence {
         val start = 0
         // yielding a single value
         yield(start)

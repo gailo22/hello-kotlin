@@ -1,8 +1,6 @@
 package hello
 
-import kotlinx.coroutines.experimental.*
-import java.util.concurrent.atomic.AtomicInteger
-import kotlin.concurrent.thread
+import kotlinx.coroutines.delay
 
 fun main(args: Array<String>) {
     println("Start")
